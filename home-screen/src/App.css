@@ -1,0 +1,67 @@
+/* Global Dark Theme Styles */
+body {
+  background-color: #121212; /* Pure dark background */
+  color: #e0e0e0; /* Light text for readability */
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+/* App Container */
+.container {
+  background: #1e1e2f; /* Slightly lighter dark for containers */
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.7);
+}
+
+/* Header Styling */
+h1 {
+  color: #ffffff;
+}
+
+/* Subtitle */
+p.text-muted {
+  color: #b0b0b0;
+}
+
+/* Card Styling */
+.card {
+  background: #2c2c3e;
+  color: #ffffff;
+  border: 1px solid #444;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  border-radius: 8px;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+/* Card Image */
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+/* Card Button */
+.btn-outline-primary {
+  color: #ffffff;
+  border-color: #6c63ff;
+  border-radius: 50px;
+}
+
+.btn-outline-primary:hover {
+  background-color: #6c63ff;
+  color: #ffffff;
+  border-color: #6c63ff;
+}
+
+/* Footer or Bottom Margin */
+footer {
+  margin-top: 50px;
+  text-align: center;
+  color: #b0b0b0;
+}
